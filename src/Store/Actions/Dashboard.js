@@ -73,7 +73,7 @@ export const getFeeds = (data = null) => {
             }
           } else if (data?.type === "search") {
             filters = updatedData.filter((item) => {
-              return item.restData["feed"]["title"].match(data.id);
+              return item.restData["feed"]["title"].match(data.id.toLowerCase());
             });
           }
         }
