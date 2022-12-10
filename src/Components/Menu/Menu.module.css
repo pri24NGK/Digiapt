@@ -1,0 +1,32 @@
+.menu {
+  position: relative;
+  display: inline-block;
+}
+.menu_title {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  /* margin-bottom: 17px; */
+}
+.menu_container {
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  margin-top: 17px;
+}
+.menu_item_container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #39015e;
+  padding: 5px;
+}
+.menu_item_container:hover {
+  background-color: #39015e;
+  color: #fff;
+}
+.menu_item {
+  margin-left: 8px;
+}

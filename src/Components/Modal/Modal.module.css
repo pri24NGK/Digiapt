@@ -1,0 +1,31 @@
+.Modal {
+  background-color: aliceblue;
+  width: 50%;
+  position: relative;
+  padding: 16px;
+  z-index: 10;
+  max-height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+}
+.Modal .Icon {
+  position: absolute;
+  top:0;
+  right:0;
+  margin: 5px 5px 0 0;
+}
+.Modal .Icon .cancel {
+  font-size: 24px;
+  color: #39015e;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .Modal {
+    width: 95%;
+  }
+}

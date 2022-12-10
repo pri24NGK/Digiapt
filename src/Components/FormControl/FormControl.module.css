@@ -1,0 +1,61 @@
+input,
+textarea,
+select {
+  display: block;
+  padding: 16px;
+  width: 100%;
+  border: 2px solid #39015e !important;
+  border-radius: 8px;
+  color: #39015e;
+}
+textarea {
+  resize: none;
+}
+input:focus,
+textarea:focus {
+  color: #39015e;
+  background-color: rgb(235, 235, 155);
+}
+.added_styles {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+::placeholder {
+  color: #39015e;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #39015e;
+}
+
+::-ms-input-placeholder {
+  color: #39015e;
+}
+.error {
+  border-color: red !important;
+}
+.select_override {
+  width: 25%;
+}
+.override_input {
+  padding-right: 20px;
+}
+@media screen and (max-width: 1100px) {
+  .select_override {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .override_input {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  input,
+  textarea,
+  select {
+    padding: 16px;
+    width: 80%;
+  }
+}

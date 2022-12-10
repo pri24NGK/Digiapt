@@ -1,0 +1,53 @@
+.SignupForm_Boundary {
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.SignupForm_Boundary .SignupForm {
+  flex: 1;
+  border: 5px solid #39015e;
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+}
+.SignupForm_Boundary .SignupForm .SignupHeader {
+  color: #39015e;
+  text-transform: uppercase;
+}
+.SignupForm_Boundary .SignupForm .LabelText {
+  color: #39015e;
+  width: 50%;
+  margin-top: 16px;
+}
+.SignupForm_Boundary .SignupForm .ErrorText {
+  color: red;
+  width: 50%;
+  margin-top: 8px;
+}
+.SignupForm_Boundary .SignupForm p {
+  color: #39015e;
+}
+.SignupForm_Boundary .SignupForm .Login_text {
+  text-decoration: underline;
+  color: #39015e;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .SignupForm_Boundary {
+    width: 95%;
+  }
+  .SignupForm_Boundary .SignupForm .LabelText {
+    width: 80%;
+  }
+  .SignupForm_Boundary .SignupForm .ErrorText {
+    width: 80%;
+  }
+}

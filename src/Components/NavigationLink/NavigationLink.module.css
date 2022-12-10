@@ -1,0 +1,30 @@
+.main_header__item__link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .main_header__item__activelink {
+    color: #ffeb3b;
+  }
+  .main_header__item__link:hover,
+  .main_header__item__link:active,
+  .main_header__item__link.active {
+    color: #ffeb3b;
+  }
+  .main_header_hightlight{
+    border:1px solid #fff;
+    padding:10px;
+  }
+  .mobile_nav__item {
+    margin: 1rem;
+    padding: 0;
+  }
+  
+  .mobile_nav__item__link {
+    text-decoration: none;
+    color: #39015e;
+    font-size: 1.5rem;
+  }
+  .mobile_nav__item__activelink {
+    color: #39015e;
+  }

@@ -1,0 +1,50 @@
+.button {
+  font: inherit;
+  border: 1px solid #39015e;
+  color: #39015e;
+  background: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:disabled {
+  background: #ccc;
+  color: #888888;
+  cursor: not-allowed;
+  border: #ccc;
+  box-shadow: none;
+}
+
+.button:disabled:hover,
+.button:disabled:active {
+  background: #ccc;
+  color: #888888;
+  border: #ccc;
+}
+
+.button--add,
+.button:hover,
+.button:active {
+  background: #3b0062;
+  color: white;
+}
+.button--add:focus,
+.button--add:hover {
+  background: white;
+  color: #3b0062;
+}
+.button--updatefeed {
+  align-self: center;
+  max-width: 30%;
+  width: 100%;
+}

@@ -1,0 +1,37 @@
+.user_title,
+.feed_title {
+  color: #39015e;
+  margin: 8px;
+}
+.wrapper_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  line-height: 1rem;
+}
+.label_text {
+  color: #39015e;
+  display: block;
+  margin-right: 5px;
+}
+.side_spacing {
+  margin-left: 1rem;
+}
+.content_text {
+  margin: 8px 0;
+}
+.content {
+  color: #39015e;
+  margin: 0 0 0 1.2rem;
+  word-wrap: break-word;
+  padding: 8px;
+}
+.wrapper {
+  border: 1px solid #39015e;
+  border-radius: 8px;
+}
+.wrapper_flex_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+export const GET_FEEDS = "GET_FEEDS";
+// export const UPDATE_EMPLOYEES_WITH_HIDE = "UPDATE_EMPLOYEES_WITH_HIDE";
+export const GET_FEED = "GET_FEED";
+export const CLEAR_FEED = "CLEAR_FEED";
+export const ADD_FEED = "ADD_FEED";
+
+export const SHOW_LOADER = "SHOW_LOADER";
+export const ERROR_MESSAGE_DASHBOARD = "ERROR_MESSAGE_DASHBOARD";
+export const ERROR_CLEAR_DASHBOARD = "ERROR_CLEAR_DASHBOARD";
+
+export const UPDATE_TEXT_DATA = "UPDATE_TEXT_DATA";
+export const MATCH_ID = "MATCH_ID";
