@@ -207,6 +207,9 @@ export const Dashboard = (props) => {
                   </div>
                 );
               })}
+              {!currentFeedData?.length > 0 && (
+              <h2 className={ClassName.no_record}>No Records Found!</h2>
+            )}
             {currentFeedData?.length > 0 && (
               <Pagination
                 className={ClassName.pagination_bar}
