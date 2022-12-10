@@ -143,17 +143,17 @@ export const Dashboard = (props) => {
                   override
                   changeHandler={changeHandler.bind(this, "search")}
                 />
-                <div className={ClassName.icon_container} onClick={() => {}}>
-                  <FaSearch
-                    className={ClassName.icon}
-                    onClick={() => {
-                      if (search.value !== "") {
-                        dispatch(
-                          actions.getFeeds({ type: "search", id: search.value })
-                        );
-                      }
-                    }}
-                  />
+                <div
+                  className={ClassName.icon_container}
+                  onClick={() => {
+                    if (search.value !== "") {
+                      dispatch(
+                        actions.getFeeds({ type: "search", id: search.value })
+                      );
+                    }
+                  }}
+                >
+                  <FaSearch className={ClassName.icon} />
                 </div>
               </div>
               <FormControl
@@ -207,7 +207,7 @@ export const Dashboard = (props) => {
                   </div>
                 );
               })}
-              {!currentFeedData?.length > 0 && (
+            {!currentFeedData?.length > 0 && (
               <h2 className={ClassName.no_record}>No Records Found!</h2>
             )}
             {currentFeedData?.length > 0 && (
